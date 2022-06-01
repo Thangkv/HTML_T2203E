@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo vietlot</title>
+    <style>
+        input{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+<h1 id="theh1" style="color: red">Nhập vào 6 số Vietlot khác nhau </h1>
+<form method="post" action="#">
+    <label>Xin mời chọn số</label>
+    <input id="num0" type="number"  max="45" min="0" placeholder="so  thu 1.. " required  />
+    <input id="num1" type="number"  max="45" min="0" placeholder="so thu 2..." required />
+    <input id="num2" type="number"  max="45" min="0" placeholder="so thu 3..." required />
+    <input id="num3" type="number"  max="45" min="0" placeholder="so thu 4..." required />
+    <input id="num4" type="number"  max="45" min="0" placeholder="so thu 5..." required />
+    <input id="num5" type="number"  max="45" min="0" placeholder="so thu 6..." required />
+    <button type="button" onclick="jackport()">Xem kết qủa</button>
+    <button type="reset" onclick="clearp()" >Thử lại</button>
+
+
+</form>
+<p id="tagp" style="display:none" >Số nhập vào không đúng định dạng hoặc bị trùng đề nghị nhập lại</p>
+<h2 id="giai" >Cơ hội đổi đời</h2>
+
+<script type="text/javascript" src="js/vietlot3.js">
+
+</script>
+
+</body>
+</html>
